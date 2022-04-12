@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+
+
+body{
+    background-color: rgb(217, 222, 226);
+}
+
+/*Todo el diseño del nav*/
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav {
+    padding: 0;
+    margin: 0;
+    font-family: font-family: Verdana, Geneva, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+  
+  nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(80, 17, 161);
+  }
+
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  nav li a:hover {
+    background: rgb(22, 21, 24);
+    color: white;
+  }
+/* fin del nav */
+/* Distintas Fuentes */  
+  h1{
+      display: flex;
+      align-items: flex-start;
+      text-decoration: none;
+      color: white;
+      font-family: 'Source Serif 4', sans-serif;
+  }
+
+  h2{
+    font-family: 'Dongle', sans-serif;
+  }
+
+  h3{
+    font-size: 26px;
+    font-family: 'Dongle', sans-serif;
+}
+
+ p{
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+ }
+ 
+  h4{
+    font-size: 30px;
+    font-family:'Dongle', sans-serif;
+  } 
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+  }
+
+
+
+
+
