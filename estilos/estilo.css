@@ -27,7 +27,7 @@ nav ul {
   
   nav ul {
     list-style: none;
-    padding: 10px;
+    
     margin: 10px;
     background: rgb(80, 17, 161);
   }
@@ -36,13 +36,15 @@ nav ul {
     color: white;
     display: block;
     text-decoration: none;
-    padding: .5em 1em;
+    padding: .8em 3em;
+    transition: 0.5s;
   }
   
   nav li a:hover {
     background: rgb(22, 21, 24);
     color: white;
   }
+  
 /* fin del nav */
 /* Distintas Fuentes */  
   h1 a{
@@ -55,8 +57,12 @@ nav ul {
       text-align: center;
       margin: 0px;
       padding-bottom: 0px;
+      transition: 0.5s;
   }
-   
+   h1 a:hover{
+     color: black;
+     
+   }
   h1 a {
     text-align: center;
   }
@@ -101,7 +107,6 @@ nav ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-
   }
 
   .titulo{
@@ -141,5 +146,6 @@ nav ul {
   display: flex;
   justify-content: center;
 }
-
-
+ label{
+   font-family:'Dongle', sans-serif ;
+ }
